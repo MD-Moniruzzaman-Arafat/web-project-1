@@ -16,15 +16,14 @@ body {
 header {
     background-image: url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: left;
-    margin-left: 50px;
+    margin: 10px 0px 0px 25px;
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 125px;
 }
 
 .logo-color {
@@ -56,10 +55,9 @@ nav ul li a {
 /* hero-section-container */
 .hero-section-container {
     display: flex;
-    padding: 50px 0px 0px 150px;
+    padding: 50px 0px 0px 125px;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .hero-image-container {

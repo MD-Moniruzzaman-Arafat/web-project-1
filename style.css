@@ -105,14 +105,16 @@ main {
     margin: 100px 0px;
 }
 
-.about-us-container h1 {
+.about-us-container h1,
+.what-i-do-container h1 {
     font-weight: 700;
     color: #181818;
     font-size: 35px;
     text-align: center;
 }
 
-.about-us-container>p {
+.about-us-container>p,
+.what-i-do-container>p {
     font-weight: 400;
     color: #757575;
     font-size: 18px;
@@ -135,4 +137,25 @@ main {
 
 .about-info p {
     color: #474747;
+}
+
+.what-i-do-container {
+    padding: 100px 0px;
+}
+
+.programming-languages-container {
+    display: flex;
+    gap: 13px;
+}
+
+.programming-language {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+}
+
+.programming-language p {
+    font-size: 15px;
+    color: #757575;
 }

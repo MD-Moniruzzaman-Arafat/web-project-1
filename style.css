@@ -106,7 +106,8 @@ main {
 }
 
 .about-us-container h1,
-.what-i-do-container h1 {
+.what-i-do-container h1,
+.summary-of-my-resume-container h1 {
     font-weight: 700;
     color: #181818;
     font-size: 35px;
@@ -158,4 +159,41 @@ main {
 .programming-language p {
     font-size: 15px;
     color: #757575;
+}
+
+.summary-of-my-resume-container {
+    padding: 100px 0px;
+}
+
+.resume-container {
+    display: flex;
+    margin: 100px 0;
+    gap: 50px;
+}
+
+.education-container h3,
+.experience-container h3 {
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin: 15px 0;
+}
+
+.skills h5 {
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.skills h6 {
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 15px;
 }
